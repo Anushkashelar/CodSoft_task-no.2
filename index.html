@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale1.0">
+    <title>Anushka - Student portfolio </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,100&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(223, 11, 11);
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-self: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(77, 77, 152);
+            font-size: 1.04rem;
+        }
+
+        main hr {
+            border: 0;
+            background: rgb(177, 68, 68);
+            height: 1.2px;
+            margin: 60px 84px;
+
+
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .first {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 140px 0;
+
+
+        }
+
+        .first>div {
+            width: 30%;
+
+        }
+
+        .leftsection {
+
+            font-size: 3rem;
+
+
+        }
+
+        .leftsection .button {
+            padding: 50px 0;
+
+        }
+
+        .leftsection .btn {
+            padding: 12px;
+            background-color: rgb(19, 6, 19);
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        font-size: 3rem;
+
+
+        .rightsection img {
+            width: 80%;
+            margin: 50px 0;
+
+
+
+        }
+
+        .purple {
+            color: blueviolet;
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(158, 158, 213);
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+
+        }
+
+        .secondsection .box {
+            background: white;
+            width: 90vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 140px;
+        }
+
+        .image-top {
+            width: 30px;
+            position: relative;
+            top: -36px;
+            left: -10px
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 14px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+
+        }
+
+        footer {
+            background-color: rgb(0, 0, 0);
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Anushka's portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">personal detail</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Skills</a></li>
+                    <li><a href="/">certifications</a></li>
+                    <li><a href="/">contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="first">
+            <div class="leftsection">
+                Hi, My name is <span class="purple">Anushka</span>
+                <div>Welcome to my portfolio Website</div>
+                <span id="element"></span>
+                <div class="butttons"></div>
+                <button class="btn">Download Resume</button>
+                <button class="btn">Visit Github</button>
+
+            </div>
+
+            <div class="rightsection">
+                <img src="student.png.webp" alt="">
+
+            </div>
+
+        </section>
+        <hr style="
+                border: 0;
+                background: rgb(177, 68, 68);
+                height: 1.2px;
+                margin: 40px 84px;
+               
+            ">
+        <section class="secondsection">
+            <span class="text-gray"> What I have done so far</span>
+            <h1>My completed internships</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="download.png" alt="">
+                    <div class="vertical-title">
+                        AWS cloud virtual intership
+                    </div>
+                    <div class="vertical-desc">
+                        In this internship i learn about how cloud store the information and data, This internship is
+                        very helpful for learning lots of things about cloud.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="raybot logo.jpeg" alt="">
+                    <div class="vertical-title">
+                        Raybot Automation internship
+                    </div>
+                    <div class="vertical-desc">
+                        During my robotics internship, I gained hands-on experience by completing various tasks such as
+                        building an ultrasonic robot and programming LED blinking sequences. Additionally, I conducted
+                        workshops at the Horizon Academy in Nashik, where I shared my knowledge and skills with others
+                        interested in robotics. Through these experiences, I developed practical skills in robotics and
+                        teaching, furthering my understanding of both technical concepts and communication within the
+                        field.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="octanet.jpeg" alt="">
+                    <div class="vertical-title">
+                        Octanet Services internship
+                    </div>
+                    <div class="vertical-desc">
+                        During my virtual web development internship, I completed two significant tasks. Firstly, I
+                        crafted a professional landing page, showcasing my ability to design and implement user-friendly
+                        interfaces. Secondly, I developed a functional to-do list application, demonstrating proficiency
+                        in front-end and back-end web technologies. Through this internship, I honed my skills in web
+                        development and gained valuable experience in working remotely, effectively managing tasks, and
+                        meeting deadlines.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="download (3).png" alt="">
+                    <div class="vertical-title">
+                        Zscaler academy
+                    </div>
+                    <div class="vertical-desc">
+                        I have had the privilege of being part of the Zscaler Academy, an invaluable platform for honing
+                        my skills in cloud security and network transformation. Through my engagement with the Zscaler
+                        Academy.My journey with Zscaler Academy has been instrumental in broadening my knowledge and
+                        expertise in cloud security and network transformation, contributing to my professional growth
+                        and aspirations in the cybersecurity field
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="download (1).png" alt="">
+                    <div class="vertical-title">
+                        Futureskill Nasscom
+                    </div>
+                    <div class="vertical-desc">
+                        I am proud to have been part of NASSCOM's FutureSkills program, a transformative initiative that
+                        has significantly enhanced my skills in the ever-evolving tech landscape. My association with
+                        NASSCOM FutureSkills has played a pivotal role in my career development, equipping me with the
+                        knowledge and skills required to excel in the dynamic world of technology
+                    </div>
+                </div>
+
+
+
+
+
+
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Anushka's Student portfolio</h3>
+            </div>
+            <div class="footer-secondt">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>contact</li>
+                </ul>
+
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>contact</li>
+                </ul>
+
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>contact</li>
+                </ul>
+
+            </div>
+        </div>
+        <a href="https://www.linkedin.com/in/anushka-shelar-577847260" target="_blank">Linkedin</a>
+        <a href="https://github.com/Anushkashelar" target="_blank">Github</a>  
+        <div class="footer-rights">
+            copyright &#169; .anushkasportfolio.com
+            </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Fast Learner.', 'Self Motivated.', 'Multitasking.'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
